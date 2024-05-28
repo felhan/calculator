@@ -11,8 +11,15 @@
         <h1 class="title">Калькулятор</h1>
         <div class="border"></div>
         <div class="calc">
-            <div class="calc_value">0</div>
+            <div class="calc_form">
+                <div class="calc_value">0</div>
+            </div>
             <table class="calc_buttons">
+                <tr class="calc_row">
+                    <td class="calc_button" data-type="operation" data-value="("><button>(</button></td>
+                    <td class="calc_button" data-type="operation" data-value=")"><button>)</button></td>
+                    <td class="calc_button" data-type="clear" colspan="4"><button>C</button></td>
+                </tr>
                 <tr class="calc_row">
                     <td class="calc_button" data-type="number" data-value="7"><button>7</button></td>
                     <td class="calc_button" data-type="number" data-value="8"><button>8</button></td>
@@ -37,10 +44,8 @@
                     <td class="calc_button" data-type="calculate"><button>=</button></td>
                     <td class="calc_button" data-type="operation" data-value="+"><button>+</button></td>
                 </tr>
-                <tr class="calc_row">
-                    <td class="calc_button" data-type="clear" colspan="4"><button>C</button></td>
-                </tr>
-              </table> 
+            </table>
+            
         </div>
     </main>
     <script type="text/javascript" src="app.js"></script>

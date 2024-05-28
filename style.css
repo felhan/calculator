@@ -56,7 +56,6 @@ body{
 .calc_buttons {
     width: 100%;
     align-content: center;
-    border: 1px solid #000; /* Added this line to fix the missing border */
 }
 
 .calc_row {
